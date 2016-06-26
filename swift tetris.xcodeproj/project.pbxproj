@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092A86671D1F41AA00AE75D3 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A86661D1F41AA00AE75D3 /* Block.swift */; };
+		092A86691D1F4FF900AE75D3 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A86681D1F4FF900AE75D3 /* Shape.swift */; };
+		092A866D1D201F3D00AE75D3 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A866C1D201F3D00AE75D3 /* SquareShape.swift */; };
+		092A866F1D2022C700AE75D3 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A866E1D2022C700AE75D3 /* TShape.swift */; };
+		092A86711D20230700AE75D3 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A86701D20230700AE75D3 /* LineShape.swift */; };
+		092A86731D20233300AE75D3 /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A86721D20233300AE75D3 /* LShape.swift */; };
+		092A86751D20235300AE75D3 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A86741D20235300AE75D3 /* JShape.swift */; };
+		092A86771D20237800AE75D3 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A86761D20237800AE75D3 /* SShape.swift */; };
+		092A86791D20238F00AE75D3 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A86781D20238F00AE75D3 /* ZShape.swift */; };
+		092A867B1D20278B00AE75D3 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A867A1D20278B00AE75D3 /* Swiftris.swift */; };
 		0946A4AA1D187A2D00422E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0946A4A91D187A2D00422E50 /* AppDelegate.swift */; };
 		0946A4AE1D187A2D00422E50 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0946A4AD1D187A2D00422E50 /* GameScene.swift */; };
 		0946A4B01D187A2D00422E50 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0946A4AF1D187A2D00422E50 /* GameViewController.swift */; };
@@ -51,6 +61,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092A86661D1F41AA00AE75D3 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		092A86681D1F4FF900AE75D3 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		092A866C1D201F3D00AE75D3 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		092A866E1D2022C700AE75D3 /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		092A86701D20230700AE75D3 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		092A86721D20233300AE75D3 /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		092A86741D20235300AE75D3 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		092A86761D20237800AE75D3 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		092A86781D20238F00AE75D3 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		092A867A1D20278B00AE75D3 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		0946A4A61D187A2D00422E50 /* swift tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift tetris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0946A4A91D187A2D00422E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0946A4AD1D187A2D00422E50 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -108,6 +128,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		092A866B1D201EF400AE75D3 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				092A86681D1F4FF900AE75D3 /* Shape.swift */,
+				092A866C1D201F3D00AE75D3 /* SquareShape.swift */,
+				092A866E1D2022C700AE75D3 /* TShape.swift */,
+				092A86721D20233300AE75D3 /* LShape.swift */,
+				092A86741D20235300AE75D3 /* JShape.swift */,
+				092A86781D20238F00AE75D3 /* ZShape.swift */,
+				092A86761D20237800AE75D3 /* SShape.swift */,
+				092A86701D20230700AE75D3 /* LineShape.swift */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
 		0946A49D1D187A2D00422E50 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +169,9 @@
 				0946A4A91D187A2D00422E50 /* AppDelegate.swift */,
 				0946A4AD1D187A2D00422E50 /* GameScene.swift */,
 				09A7EE9C1D18AD860000D5E2 /* Array2D.swift */,
+				092A867A1D20278B00AE75D3 /* Swiftris.swift */,
+				092A86661D1F41AA00AE75D3 /* Block.swift */,
+				092A866B1D201EF400AE75D3 /* Shapes */,
 				0946A4AF1D187A2D00422E50 /* GameViewController.swift */,
 				0946A4B11D187A2D00422E50 /* Main.storyboard */,
 				0946A4B41D187A2D00422E50 /* Assets.xcassets */,
@@ -268,6 +306,7 @@
 				TargetAttributes = {
 					0946A4A51D187A2D00422E50 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GCE3N7LT62;
 					};
 					0946A4BD1D187A2D00422E50 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -346,9 +385,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092A866D1D201F3D00AE75D3 /* SquareShape.swift in Sources */,
 				0946A4AE1D187A2D00422E50 /* GameScene.swift in Sources */,
+				092A86691D1F4FF900AE75D3 /* Shape.swift in Sources */,
+				092A86751D20235300AE75D3 /* JShape.swift in Sources */,
+				092A867B1D20278B00AE75D3 /* Swiftris.swift in Sources */,
 				09A7EE9D1D18AD860000D5E2 /* Array2D.swift in Sources */,
+				092A86731D20233300AE75D3 /* LShape.swift in Sources */,
+				092A86711D20230700AE75D3 /* LineShape.swift in Sources */,
+				092A86771D20237800AE75D3 /* SShape.swift in Sources */,
+				092A866F1D2022C700AE75D3 /* TShape.swift in Sources */,
+				092A86671D1F41AA00AE75D3 /* Block.swift in Sources */,
 				0946A4B01D187A2D00422E50 /* GameViewController.swift in Sources */,
+				092A86791D20238F00AE75D3 /* ZShape.swift in Sources */,
 				0946A4AA1D187A2D00422E50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,11 +539,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "swift tetris/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joe-Mulhern.swift-tetris";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -503,11 +554,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "swift tetris/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joe-Mulhern.swift-tetris";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
